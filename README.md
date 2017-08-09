@@ -55,3 +55,5 @@ new ImageUpload({
 ```
 
 ---
+
+ MIT License (c) Ashwin Abraham
