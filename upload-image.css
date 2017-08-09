@@ -1,0 +1,33 @@
+.upload-image__main,
+.upload-image__drop,
+.upload-image__done
+{
+  width:100%;
+  padding:8px;
+}
+.upload-image__main_inner
+{
+  padding:100px 8px;
+  border: 4px dashed rgb(200,200,200);
+  text-align:center;
+  color:rgb(200,200,200);
+}
+.upload-image__drop_actions
+{
+  width:100%;
+}
+.upload-image__drop_actions > a,
+.upload-image__done > a
+{
+  width:calc(50% - 16px);
+  margin:8px;
+}
+.upload-image__done > img
+{
+  width:300px;
+  margin:0 calc((100% - 300px) / 2);
+}
+.upload-image__done > a
+{
+  width:calc(100% - 16px);
+}
